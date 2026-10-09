@@ -29,7 +29,7 @@ export function createSseParseState(): SseParseState {
 
 /**
  * Feeds a decoded text chunk into {@link state} and returns completed events.
- * Spec-aligned enough for Forge: blank line dispatches; {@code :} comments ignored.
+ * Spec-aligned enough for typical APIs: blank line dispatches; {@code :} comments ignored.
  */
 export function pushSseText(
   state: SseParseState,

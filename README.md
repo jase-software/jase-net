@@ -4,11 +4,21 @@ HTTP client for over-the-wire APIs. Supports JSON and CBOR payloads, optional au
 
 ## Install
 
+Not published to npm yet. Consume from git or as a workspace package until then.
+
+**Git dependency**
+
 ```bash
-yarn add @jase/net
+yarn add jase-software/jase-net#v0.1.0
 # or
-npm install @jase/net
+npm install jase-software/jase-net#v0.1.0
 ```
+
+Use a branch or commit instead of a tag if you prefer (`#main`, `#abcdef0`).
+
+**Yarn / npm workspace**
+
+Point a workspace package at this repo (or a path checkout) and depend on `@jase/net@0.1.0`. Entry points resolve to TypeScript source under `src/`.
 
 ## Configuration
 
